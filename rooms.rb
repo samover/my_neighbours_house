@@ -98,18 +98,6 @@ def do_command(command)
     end
 end
 
-start = Scene.new(
-  'start', 
-  """ Welcome to the game of MY NEIGHBOUR'S HOUSE! The object of the game is to
-     visit ALL the rooms and to find all the hidden objects by using the command 
-     'search'. If you do not find all the objects within 20 moves, your neighbours 
-     will return and shoot you as the burglar you are. 
-     Press 'c' to start the game!""",
-  {'N' => 'outside'},
-  [],
-  []
-)
-
 outside = Scene.new(
   'outside',
   """ Welcome to the game of MY NEIGHBOUR'S HOUSE! The object of the game is to
